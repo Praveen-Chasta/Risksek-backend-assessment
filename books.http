@@ -1,0 +1,15 @@
+###
+GET http://localhost:3001/listBooks
+
+###
+POST http://localhost:3001/addBook
+Content-Type: application/json
+
+{
+  "title": "The Catcher in the Rye",
+  "author": "J.D. Salinger",
+}
+
+
+###
+DELETE http://localhost:3001/deleteBook
